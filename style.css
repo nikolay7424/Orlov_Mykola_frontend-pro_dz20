@@ -1,0 +1,46 @@
+.slider, .img-wrapper {
+  position: relative;
+}
+
+.slider {
+  height: 100vh;
+  overflow: hidden;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+}
+
+button > img {
+  width: 3rem;
+}
+
+.slider-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#left-button {
+  left: 0;
+}
+
+#right-button {
+  right: 0;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.img-wrapper {
+  height: 100%;
+  
+}
