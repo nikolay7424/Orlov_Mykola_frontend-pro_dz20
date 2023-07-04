@@ -2,6 +2,10 @@
   position: relative;
 }
 
+body {
+  margin: 0;
+}
+
 .slider {
   height: 100vh;
   overflow: hidden;
